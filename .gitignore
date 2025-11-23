@@ -1,0 +1,46 @@
+# Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+UserSettings/
+
+# Plastic SCM
+.plastic/
+
+# Asset store tools
+[Aa]ssets/AssetStoreTools*
+
+# IDE / build artifacts
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+*.autosave
+*.[Aa]sset.[Bb]ackup.*
+
+# Addressables / StreamingAssets meta only
+**/Assets/AddressableAssetsData/*/*.bin*
+<<<<<<< Updated upstream
+**/Assets/StreamingAssets/*.meta
+
+# VSCode
+.vscode/
+=======
+**/Assets/StreamingAssets/*.meta.plastic/
+UserSettings/ 
+"ignore.conf" 
+.vscode/
+>>>>>>> Stashed changes
