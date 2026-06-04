@@ -18,7 +18,7 @@
 
 Pondfall is a fast-paced ecological decision-making game built for **COMP3218: Storytelling in Games** at the University of Southampton Malaysia. The player assumes the role of the **Spirit of the Pond**, managing a fragile frog civilization through a series of binary choices while balancing four interconnected resources.
 
-The game is a spiritual retelling of Aesop's fable *The Frogs Who Desired a King* — where the lesson of responsibility unfolds differently depending on how wisely you steward the pond.
+The game is a spiritual retelling of Aesop's fable *The Frogs Who Desired a King* — where the lesson of responsibility unfolds differently depending on how wisely you steward the pond. 
 
 ---
 
