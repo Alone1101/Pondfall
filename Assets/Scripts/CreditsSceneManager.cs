@@ -1,0 +1,27 @@
+using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
+public class CreditsSceneManager : MonoBehaviour
+{
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Backspace))
+        {
+            PlaySelectSound();
+            SceneManager.LoadScene(0);
+        }
+    }
+
+    void PlaySelectSound()
+    {
+        if (AudioManager.Instance != null)
+        {
+            AudioManager.Instance.PlaySelectSound();
+        }
+        else
+        {
+            Debug.LogWarning("AudioManager Instance is null!");
+        }
+    }
+}
